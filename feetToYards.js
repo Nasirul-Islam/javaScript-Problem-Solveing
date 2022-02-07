@@ -4,4 +4,4 @@ function feetToYards(feet) {
     return yards;
 }
 const result = feetToYards(10);
-console.log(result, "Feet");
+console.log(result, "Yards");
