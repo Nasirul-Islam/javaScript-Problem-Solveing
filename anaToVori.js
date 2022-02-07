@@ -1,4 +1,3 @@
-
 function anaToVori(ana) {
     const vori = ana / 16;
     return vori;

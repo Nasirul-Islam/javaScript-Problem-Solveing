@@ -8,13 +8,13 @@ function picnicBudget(student) {
         return costForFirst100;
     }
     else if (student <= 200) {
-        const restStudent = student-100;
+        const restStudent = student - 100;
         const costForFirst100 = 100 * first100Student;
         const costForSecond100 = restStudent * second100Student;
         return (costForFirst100 + costForSecond100);
     }
     else if (student > 200) {
-        const restStudentnum = student-200;
+        const restStudentnum = student - 200;
         const costForFirst100 = 100 * first100Student;
         const costForSecond100 = 100 * second100Student;
         const costForRestStudent = restStudentnum * restStudent;
@@ -22,7 +22,5 @@ function picnicBudget(student) {
     }
 
 }
-
 const result = picnicBudget(300);
-
 console.log(result);
