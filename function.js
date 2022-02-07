@@ -16,3 +16,4 @@ function sumNum(num1, num2, num3){
 const result2 = sumNum(5,5,5);
 console.log(result2);
 
+
