@@ -5,14 +5,19 @@ function sum(num) {
     let sumation = 0;
     for (let i = 30; i <= num; i++) {
         sumation = sumation+i;
-        console.log(i);
+        // console.log(i);
     }
-    console.log(sumation);
+    // console.log(sumation);
 }
 // sum(60);
 
 // Loop over array
 const friends = ['A', 'B', 'C', 'D', 'E']; 
 for (let i = 0; i<friends.length; i++){
-    console.log("Lend me money Mr.", friends[i]);
+    // console.log("Lend me money Mr.", friends[i]);
+}
+
+// Multiplication with loop 
+for (let i = 1; i <= 10; i++) {
+    console.log("7 X ", i, "=", i*7);
 }

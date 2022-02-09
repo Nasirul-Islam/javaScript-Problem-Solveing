@@ -16,4 +16,13 @@ function sumNum(num1, num2, num3){
 const result2 = sumNum(5,5,5);
 console.log(result2);
 
-
+// Even or Odd
+function isEvenNumber(num) {
+    const remainder = num%2;
+    let isEven = false;
+    if (remainder == 0) {
+        isEven = true;
+    }
+    return isEven;
+}
+console.log(isEvenNumber(30));
