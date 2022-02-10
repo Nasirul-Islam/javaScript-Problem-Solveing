@@ -9,3 +9,6 @@ const family = ['Fother', 'Mother', 'Sister', 'Brother'];
 // console.log(family.indexOf('Mother'));
 // console.log(family.reverse());
 // console.log(family.sort());
+
+const Name = "Hablu The Grate";
+console.log(Name.length);
